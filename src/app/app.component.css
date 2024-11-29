@@ -1,0 +1,89 @@
+main{
+    background-color: rgb(206, 207, 207);
+    width: 100wh;
+    height: 100vh;
+}
+
+/* NavBar Section */
+
+.icons_Style{
+    display: flex;
+    text-align: center;
+    padding: 10px 10px 0 0;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.icons_Style i{
+    margin: 5px 10px;
+    font-size: 19px;
+}
+
+#maindiv{
+    display: flex;
+    width: 25%;
+    margin-top: 5px;
+    justify-content: space-between;
+    background-color:#FFFFFF !important;
+}
+
+.logo{
+    width: 15%;
+    text-align: center;
+}
+nav{
+    width: 100%;
+}
+h3{
+    padding-top: 9px;
+}
+section{
+    /* padding-top: 10px; */
+    background-color:#FFFFFF !important;
+}
+
+.searchbar{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0F5FF;
+    margin: 0 20px;
+    border-radius: 15px;
+    align-content: center;
+}
+.searchbar input{
+    all: unset;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 25px;
+}
+
+.fa-magnifying-glass{
+    /* padding : 0.8rem 1rem 0 1rem !important; */
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    background-color: #F0F5FF !important;
+    border-radius: 0 20px 20px 0 !important;
+}
+
+.login:hover{
+    background-color: rgb(60, 60, 209);
+    border-radius: 10px;
+    color: #f1eded;
+}
+
+/* NavBar Section End */
+
+/* Menu Section Start */
+
+#menu_section
+{
+    margin: 10px;
+    padding: 5px;
+    background: #FFFFFF;
+}
