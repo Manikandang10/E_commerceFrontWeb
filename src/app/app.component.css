@@ -1,51 +1,61 @@
-main{
-    background-color: rgb(206, 207, 207);
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+main {
+    background-color: #F1F2F4;
     width: 100wh;
     height: 100vh;
 }
 
 /* NavBar Section */
 
-.icons_Style{
+.icons_Style {
     display: flex;
     text-align: center;
     padding: 10px 10px 0 0;
     cursor: pointer;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
-.icons_Style i{
+
+.icons_Style i {
     margin: 5px 10px;
     font-size: 19px;
 }
 
-#maindiv{
+.icons_Style a{
+    font-weight: 500;
+}
+
+#maindiv {
     display: flex;
     width: 25%;
     margin-top: 5px;
     justify-content: space-between;
-    background-color:#FFFFFF !important;
+    background-color: #FFFFFF !important;
 }
 
-.logo{
+.logo {
     width: 15%;
     text-align: center;
 }
-nav{
+
+nav {
     width: 100%;
 }
-h3{
+
+h3 {
     padding-top: 9px;
 }
-section{
+
+section {
     /* padding-top: 10px; */
-    background-color:#FFFFFF !important;
+    background-color: #FFFFFF !important;
 }
 
-.searchbar{
+.searchbar {
     width: 50%;
     display: flex;
     justify-content: space-between;
@@ -54,7 +64,8 @@ section{
     border-radius: 15px;
     align-content: center;
 }
-.searchbar input{
+
+.searchbar input {
     all: unset;
     width: 100%;
     font-size: 15px;
@@ -62,7 +73,7 @@ section{
     padding-left: 25px;
 }
 
-.fa-magnifying-glass{
+.fa-magnifying-glass {
     /* padding : 0.8rem 1rem 0 1rem !important; */
     cursor: pointer;
     font-size: 20px;
@@ -70,20 +81,116 @@ section{
     background-color: #F0F5FF !important;
     border-radius: 0 20px 20px 0 !important;
 }
-
-.login:hover{
-    background-color: rgb(60, 60, 209);
+.login{
     border-radius: 10px;
+    font-weight: 600;
+}
+
+.login:hover {
+    background-color: rgb(60, 60, 209);
     color: #f1eded;
+    transition: 0.3s;
 }
 
 /* NavBar Section End */
 
 /* Menu Section Start */
 
-#menu_section
-{
+#menu_section {
     margin: 10px;
     padding: 5px;
-    background: #FFFFFF;
+    display: flex;
 }
+
+
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 5px 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.list li{
+    margin: 0 15px;
+}
+
+.list li a:hover{
+    color: rgb(14, 146, 240);
+    border-bottom: 2px solid rgb(229, 22, 88);
+    transition: 0.2s;
+}
+
+/* Menu end  */
+
+
+
+/* Footer :start */
+footer h3{
+    font-size: 20px;
+    color: gray;
+}
+footer{
+    background-color: #100b0b;
+    color: #F0F5FF;
+    padding: 30px;;
+}
+
+
+.Mainfooter{
+   margin: 0 4%;
+}
+
+.an a{
+    display: block ;
+    width: 230px;
+    padding: 2px 0px 3px 15px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.an a:hover{
+    transition: 0.4s;
+    color: aqua;
+    padding-left: 35px;
+    text-decoration: underline;
+}
+
+.address{
+    width: 300px;
+}
+
+.FootDetails,.address{
+    min-width: 150px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.social{
+    display: flex;
+}
+
+.social a{
+    margin: 15px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.x1 i:hover{
+    color: aqua;
+}
+.x2 i:hover{
+    color: rgb(121, 56, 212);
+}
+.x3 i:hover{
+    color: rgb(38, 53, 215);
+}
+.x4 i:hover{
+    color: rgb(238, 98, 37);
+}
+.x5 i:hover{
+    color: rgb(220, 42, 80);
+}
+
+/* footer end */
