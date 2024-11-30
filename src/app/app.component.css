@@ -145,6 +145,7 @@ footer{
 .an a{
     display: block ;
     width: 230px;
+    color: #FFF;
     padding: 2px 0px 3px 15px;
     cursor: pointer;
     font-weight: 500;
@@ -187,10 +188,11 @@ footer{
     color: rgb(38, 53, 215);
 }
 .x4 i:hover{
-    color: rgb(238, 98, 37);
+    color: rgb(255, 0, 93);
 }
 .x5 i:hover{
     color: rgb(220, 42, 80);
 }
 
 /* footer end */
+
