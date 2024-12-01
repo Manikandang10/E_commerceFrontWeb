@@ -1,25 +1,31 @@
 /* Scroll Auto */
 
 .autoScroll{
-    margin: 10px;
+    margin: 10px 15px;
 }
 
 swiper-slide{
     width: 100%;
+
 }
 
 swiper-slide img{
     width: 100%;
+    cursor: pointer;
 }
 
 
 /* Product Details  */
 
-.products h5,a{
-    margin: 10px 20px;
+.products h5,a,
+.fastion h5,
+.Home-Appliance h5{
+    margin: 30px 20px 10px;
 }
 
-.products a{
+.products a,
+.fastion a,
+.Home-Appliance a{
     text-decoration:none;
     font-size: 18px;
     font-weight: 500;
@@ -27,7 +33,8 @@ swiper-slide img{
 }
 
 .Cards-container{
-    padding: 10px 20px;
+    padding: 20px 20px;
+
 }
 
 aside {
@@ -39,17 +46,181 @@ aside {
     box-shadow: 0px 1px 4px  black;
     width: 250px;
     height: 230px;
+    border-radius: 10px;
+}
+
+.cards:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    box-shadow: 0px 2px 10px  rgb(10, 227, 191);
+    cursor: pointer;
 }
 
 .card-in img{
     width: 220px;
     height: 200px;
+
 }
 .Cards-container img{
     width: 100%;
     padding:10px;
+    border-radius: 20px;
 }
 .cards h4{
     padding: 2px 25px 10px ;
     font-size: 16px;
 }
+
+/* fashion container  */
+
+.Cards-fashion-container{
+    width: 100%;
+}
+.Cards-fashion-container aside{
+    display: flex;
+    overflow: hidden;
+    scrollbar-width: none;
+}
+
+.f-card,.h-card{
+    width: 220px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.f-card img{
+    width: 100%;
+    height: 250px;
+    padding: 10px 10px 2px ;
+    border-radius: 20px;
+}
+
+.f-card p,.h-card p{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 0px 5px 20px;
+}
+
+.f-card,.h-card{
+    box-shadow: 0px 1px 4px  black;
+}
+
+.f-card:hover,.h-card:hover{
+    color: rgb(105, 180, 15);
+    font-size: 20px;
+    transition: 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+/* .Home-Appliance */
+
+.h-card img{
+    width: 100%;
+    height: 250px;
+    padding:25px;
+    border-radius: 30px;
+}
+
+
+/* Small Details  */
+
+.Small-detailing{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Small-detailing h4{
+    padding-left: 20px;
+}
+.side-1,.side-2,.side-3{
+    width: 33%;
+    padding: 20px 10px;
+    border: 1px solid rgb(165, 162, 162);
+    border-radius: 10px;
+    position: relative;
+}
+
+.side-1 i,.side-2 i,.side-3 i{
+   position: absolute;
+   width: 40px;
+   right: 10px;
+   top: 20px;
+   padding: 10px;
+   text-align: center;
+   color: #FFF;
+   border-radius: 50%;
+   background-color: rgb(58, 58, 231);
+}
+
+.Main-card{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 10px
+}
+
+.Main-card .card-in-1{
+    width: 30%;
+    height: 30% !important;
+    background-color: #FFF;
+    margin: 10px;
+    border: 1.7px solid rgb(182, 180, 180);
+    border-radius: 10px;
+    flex-grow: 1;
+}
+
+.card-in-1 img{
+    padding: 20px;
+    width: 100%;
+    height: 200px;
+    border-radius: 25px;
+    background-color: rgb(253, 253, 253);
+    
+}
+
+.card-in-1:hover{
+    /* transform: scale3d(20); */
+    /* transform: rotateY(360deg); */
+    transition: 0.3s;
+    transform: skewY(2deg);
+    box-shadow: 1px 2px 10px gray;
+}
+.card-in-1 img:hover{
+    transform: scale(0.9);
+    transition: 1s;
+}
+
+.cards-desc h4{
+    font-size: 21px !important;
+    padding: 10px 5px 0px 10px !important; 
+    margin: 0 !important;
+}
+
+.cards-desc p{
+    color: green;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.side-3 img{
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.side-3 button{
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 30px;
+    background-color: aquamarine;
+}
+
