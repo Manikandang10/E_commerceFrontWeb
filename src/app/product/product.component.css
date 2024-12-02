@@ -1,0 +1,85 @@
+marquee{
+    margin-top: 10px;
+    font-size: 18px;
+    font-style: oblique;
+    color: aliceblue;
+    background-color: rgb(43, 226, 186);
+    border-radius: 4px;
+} 
+
+
+.product-section{
+    padding: 30px 0;
+}
+
+.main-div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.cards{
+    max-width: 230px;
+    height: 300px;
+    box-shadow: 1px 2px 5px black;
+    margin: 8px 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cards img{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.pro-desc{
+    text-align: center;
+}
+
+.pro-desc p{
+    margin: 0;
+    padding-top: 5px;
+}
+
+.title{
+    font-size: 16px;
+    font-style: oblique;
+    font-weight: 500;
+}
+del{
+    color: gray;
+    font-size: 16px;
+}
+.off{
+    color: green !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+}
+.span{
+    background-color: rgb(27, 168, 27);
+    color: aliceblue;
+    padding: 2px 10px 5px;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 8px;
+}
+.span i{
+    font-size: 10px;
+}
+
+.rev{
+    color: gray;
+    font-weight: 500;
+}
+.price{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cards:hover{
+    transition: 0.4s;
+    transform: scale(1.05);
+    cursor: pointer;
+    /* box-shadow:inset 1px 2px 5px rgb(21, 21, 20); */
+}

@@ -1,0 +1,54 @@
+section{
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.div-Main{
+    width: 80%;
+    margin: auto;
+    padding: 40px 10px 40px 10px;
+    text-align: center;
+
+}
+
+h1{
+    font-size: 80px;
+    margin: 0px;
+    color: red;
+}
+
+h2{
+    margin: 2px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+p{
+    margin: 2px;
+    padding: 10px 20px ;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+span{
+    color: rgb(158, 152, 152);
+}
+img{
+    width: 250px;
+    padding: 10px;
+}
+
+button{
+    border: 2px solid green;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,23,178,0.9220938375350141) 51%, rgba(0,212,255,1) 100%);
+    color: #fff;
+    border: 2px solid rgb(2,0,36);
+}

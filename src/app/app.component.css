@@ -94,8 +94,12 @@ section {
     font-weight: 600;
 }
 
-.login:hover {
+.login:hover{
     background-color: rgb(60, 60, 209);
+    color: #f1eded;
+    transition: 0.3s;
+}
+.login:hover a {
     color: #f1eded;
     transition: 0.3s;
 }

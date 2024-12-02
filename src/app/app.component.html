@@ -1,7 +1,7 @@
 <main>
     <section class="nav">
         <nav class=" d-flex py-2">
-            <h3 class="logo">ShopNova</h3>
+            <h3 class="logo"><a [routerLink]="['']">ShopNova</a></h3>
             <div class="searchbar">
                 <input type="text" class="form-control" placeholder="Search for Products, Brand and More..........">
                 <i class="fa-solid fa-magnifying-glass pt-3 pe-3"></i>
@@ -9,7 +9,7 @@
             <div id="maindiv">
                 <div class="icons_Style login">
                     <i class="fa-solid fa-circle-user"></i>
-                    <p><a href="">Login</a></p>
+                    <p><a [routerLink]="['/login']">Login</a></p>
                 </div>
                 <div class="icons_Style">
                     <i class="fa-solid fa-cart-shopping"></i>
@@ -26,9 +26,9 @@
     <section id="menu_section">
         <ul class="list dropdown">
             <li><a [routerLink]="['/home']">Home</a></li>
-            <li><a href="">All_Products <i class="fa-solid fa-arrow-down"></i></a></li>
-            <li><a href="">New_Collections</a></li>
-            <li><a href="">Electronics</a></li>
+            <li><a [routerLink]="['/product']">All_Products <i class="fa-solid fa-arrow-down"></i></a></li>
+            <li><a [routerLink]="['/collection']">New_Collections</a></li>
+            <li><a [routerLink]="['/product']">Electronics</a></li>
             <li><a [routerLink]="['/add']">Add_Products</a></li>
         </ul>
     </section>
