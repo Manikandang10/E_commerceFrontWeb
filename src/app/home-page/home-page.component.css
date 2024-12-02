@@ -190,7 +190,7 @@ aside {
     transform: skewY(2deg);
     box-shadow: 1px 2px 10px gray;
 }
-.card-in-1 img:hover{
+.card-in-1:hover img{
     transform: scale(0.9);
     transition: 1s;
 }

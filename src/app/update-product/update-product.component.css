@@ -1,0 +1,42 @@
+form{
+    display: flex;
+    width: 55%;
+    margin: auto;
+    flex-wrap: wrap;
+    color: #FFF;
+}
+
+label{
+    padding: 5px 4px 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input,select{
+    padding: 10px 20px;
+    font-size: 16px;
+}
+p{
+    width: 48%;
+    margin: 5px;
+    padding: 10px 0;
+}
+.desc{
+    width: 97%;
+}
+
+.subdiv{
+    width: 29%;
+}
+.w1{
+    width: 100%;
+    padding: 20px 10px;
+}
+.w{
+    width: 100%;
+}
+input[type='checkbox']{
+    margin-right: 10px;
+}
+.btn{
+    display: block;
+}
